@@ -34,8 +34,8 @@ function setStrimWidth($string) {
 <head>
 	<meta charset="UTF-8">
 	<title>List of Board Mont</title>
-	<link rel="stylesheet" href="list.css" />
-	<link rel="stylesheet" href="search.css" />
+	<link rel="stylesheet" href="style/list.css" />
+	<link rel="stylesheet" href="style/search.css" />
 </head>
 <body>
 

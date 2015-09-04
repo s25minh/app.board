@@ -12,7 +12,7 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
 <head>
 	<meta charset="UTF-8">
 	<title>Retail of Board Mont</title>
-	<link href="retail.css" rel="stylesheet" />
+	<link href="style/retail.css" rel="stylesheet" />
 </head>
 <body>
 <section class="board">

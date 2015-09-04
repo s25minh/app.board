@@ -64,7 +64,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
 	<meta charset="UTF-8">
 	<title>My App Board</title>
-	<link href="index.css" rel="stylesheet" >
+	<link href="style/index.css" rel="stylesheet" >
 </head>
 <body>
 <div class="wrapper">
