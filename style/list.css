@@ -1,0 +1,82 @@
+table.board-list {
+	table-layout: fixed;
+	margin: 0 auto;
+	padding: 0;
+}
+
+table.board-list tr {
+}
+
+table.board-list tr th {
+	height: 39px;
+	color: #f5f5f5;
+	font-size: 12px;
+	background: #483d88;
+	padding: 5px 10px 5px 10px;
+	text-align: left;
+}
+table.board-list tr td {
+	height: 35px;
+}
+
+table.board-list tr th:first-child {
+	border-radius: 5px 0px 0px 0px;
+}
+
+table.board-list tr th:last-child {
+	border-radius: 0px 5px 0px 0px;
+}
+
+table.board-list tr td.r2  {
+	width: 100px;
+	padding-left: 5px;
+	margin-left: 5px;
+}
+
+table.board-list tr td.r3 {
+	width: 70px;
+	padding-left: 5px;
+	margin-left: 5px;
+}
+
+table.board-list tr td.r4 {
+	padding-left: 5px;
+	margin-left: 5px;
+
+}
+
+table.board-list tr td.r1, .r2, .r3, .r4 {
+	font-size: 13px;
+}
+
+table.board-list tr td {
+	font-size: 13px;
+	padding: 2px;
+}
+
+a {
+	color: #090193;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0077ff;
+}
+
+.board-pager {
+	margin: 0 auto;
+
+}
+.board-pager ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+.board-pager li {
+	display: inline-block;
+	width: 25px;
+	font-size: 13px;
+}
+.board-pager li:first-child, li:last-child {
+	width: 100px;
+}

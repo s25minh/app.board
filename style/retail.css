@@ -1,0 +1,16 @@
+table.retail-info {
+	margin:0 auto;
+	width: 500px;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+}
+
+table.retail-info td {
+	padding: 4px;
+	margin: 0px;
+
+}
+
+table.retail-info tr {
+	margin:0px;
+}
