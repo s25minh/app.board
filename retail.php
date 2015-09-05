@@ -1,7 +1,7 @@
 <?php
 require_once 'con_board.php';
 $id = $_GET['id'];
-$sql = 'SELECT subject, user_name, body, created_at, updated_at FROM board WHERE id = ' . $id;
+$sql = 'SELECT id, subject, user_name, body, created_at, updated_at FROM board WHERE id = ' . $id;
 
 $stmt = $con->query($sql);
 $row = $stmt->fetch(PDO::FETCH_ASSOC);
@@ -36,8 +36,12 @@ $row = $stmt->fetch(PDO::FETCH_ASSOC);
 	<tr>
 		<td><button type="button">登録</button></td>
 		<td><button type="button">削除</button></td>
-		<td><button type="button">変更</button></td>
-		<td><button type="button">リストへ</button></td>
+	<form action="insertform.php" method="post">
+	<td><button type="submit" name="update_id" value="<?php echo $id; ?>">変更</button></td>
+	</form>
+	<form action="list.php" method="post">
+		<td><button type="submit">リストへ</button></td>
+	</form>
 	</tr>
 </table>
 </section>

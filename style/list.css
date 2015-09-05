@@ -2,6 +2,7 @@ table.board-list {
 	table-layout: fixed;
 	margin: 0 auto;
 	padding: 0;
+	border-spacing: 0px;
 }
 
 table.board-list tr {
